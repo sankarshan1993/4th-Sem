@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1C25D42F188EAB580031C9BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C25D42E188EAB580031C9BC /* main.cpp */; };
 		1C25D431188EAB580031C9BC /* _th_Sem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C25D430188EAB580031C9BC /* _th_Sem.1 */; };
+		1C25D439188EAD510031C9BC /* sine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C25D437188EAD510031C9BC /* sine.cpp */; };
+		1C537D62188EB0BE000D30EE /* 4th Sem in Sources */ = {isa = PBXBuildFile; fileRef = 1C25D42B188EAB580031C9BC /* 4th Sem */; };
+		1C537D63188EB0D9000D30EE /* sine.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C25D438188EAD510031C9BC /* sine.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,8 @@
 		1C25D42B188EAB580031C9BC /* 4th Sem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4th Sem"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C25D42E188EAB580031C9BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1C25D430188EAB580031C9BC /* _th_Sem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _th_Sem.1; sourceTree = "<group>"; };
+		1C25D437188EAD510031C9BC /* sine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sine.cpp; sourceTree = "<group>"; };
+		1C25D438188EAD510031C9BC /* sine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				1C25D42E188EAB580031C9BC /* main.cpp */,
+				1C25D437188EAD510031C9BC /* sine.cpp */,
+				1C25D438188EAD510031C9BC /* sine.h */,
 				1C25D430188EAB580031C9BC /* _th_Sem.1 */,
 			);
 			path = "4th Sem";
@@ -117,6 +124,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C537D63188EB0D9000D30EE /* sine.h in Sources */,
+				1C537D62188EB0BE000D30EE /* 4th Sem in Sources */,
+				1C25D439188EAD510031C9BC /* sine.cpp in Sources */,
 				1C25D42F188EAB580031C9BC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +235,7 @@
 				1C25D436188EAB580031C9BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

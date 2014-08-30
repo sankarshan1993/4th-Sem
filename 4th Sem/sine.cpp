@@ -1,5 +1,7 @@
+
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 int main(){
     char sine[150][150];
@@ -46,7 +48,7 @@ int main(){
         double pointStartX = sin(sineWaveX);
         double pointStartX1 = (pointStartX *  middleOfGraphWidth) + sineWidth/2;
         int pointStartX2 = int(round(pointStartX1));
-        sine[sineWaveY][pointStartX2] = '*';
+        cout<<setw(pointStartX2+1)<<"*"<<endl;
         sineWaveY++;
     }
     
